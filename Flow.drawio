@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Page-1" id="uhp8GvlGlNzobbQorX4u">
+    <mxGraphModel dx="2276" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WJCsWD9e-Rois2IIcylv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-1" value="Cloud Hosted Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-5" target="WJCsWD9e-Rois2IIcylv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-4" value="kubernets" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-25" target="WJCsWD9e-Rois2IIcylv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-5" value="frontend &amp;amp; Backend Code (Docker image)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-7" target="WJCsWD9e-Rois2IIcylv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-7" value="Azure kubernet services" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="128.75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-8" target="WJCsWD9e-Rois2IIcylv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-8" value="Azure Container Registry" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-9" value="Azure Cloud" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-318.75" y="128.75" width="325" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-10" target="WJCsWD9e-Rois2IIcylv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-10" value="Frontend + Backend code&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-12" target="WJCsWD9e-Rois2IIcylv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-12" value="Local System" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-16" value="Jenkins CI/CD Pipeline" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-318.75" y="460" width="325" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-10" target="WJCsWD9e-Rois2IIcylv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-18" value="GitHub Repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-19" value="Docker local image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="535" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-20" value="Image push to Dockerhub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-21" value="Azure login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="420" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-24" value="DS Pipeline(Airflow+MlFlow)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="420" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-27" target="WJCsWD9e-Rois2IIcylv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-25" target="WJCsWD9e-Rois2IIcylv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-25" value="Model Registry" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-27" value="Model Development&lt;div&gt;(Base Model)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-29" target="WJCsWD9e-Rois2IIcylv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-29" value="Local system" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-32" target="WJCsWD9e-Rois2IIcylv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-32" value="Azure ML workshop" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="170" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-34" target="WJCsWD9e-Rois2IIcylv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-43" target="WJCsWD9e-Rois2IIcylv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-34" value="Data inges&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tion&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(ETL pipeline)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-35" target="WJCsWD9e-Rois2IIcylv-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-35" value="preprocessing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="587.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-37" target="WJCsWD9e-Rois2IIcylv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-37" value="Model Trainning&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Hyperparameter Tunning&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJCsWD9e-Rois2IIcylv-39" target="WJCsWD9e-Rois2IIcylv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-39" value="Model Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-43" value="Model monitoring +Data drift" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="830" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-51" value="Best Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJCsWD9e-Rois2IIcylv-53" value="Airflow&amp;nbsp;&lt;div&gt;Scheduler&lt;/div&gt;&lt;div&gt;@daily,@monthly&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
