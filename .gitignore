@@ -1,0 +1,15 @@
+AzureDeploymentCode/ModelCreation/venv
+AzureDeploymentCode/venv2/
+AzureDeploymentCode/venv3/
+AzureDeploymentCode/modelpipeline/__pycache__/
+AzureDeploymentCode/modelpipeline/logs/
+AzureDeploymentCode/modelpipeline/mlruns/
+AzureDeploymentCode/modelpipeline/config/
+AzureDeploymentCode/requirement.txt
+AzureDeploymentCode/keys.txt
+AzureDeploymentCode/config.json
+AzureDeploymentCode/app/config.json
+AzureDeploymentCode/SetAzureMLflow/config.json
+
+
+
