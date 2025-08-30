@@ -1,0 +1,15 @@
+ModelCreation/venv
+venv2/
+venv3/
+modelpipeline/__pycache__/
+modelpipeline/logs/
+modelpipeline/mlruns/
+modelpipeline/config/
+requirement.txt
+keys.txt
+config.json
+app/config.json
+SetAzureMLflow/config.json
+
+
+

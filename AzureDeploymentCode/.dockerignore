@@ -1,0 +1,33 @@
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv3/
+venv2/
+.env
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Git & VSCode configs
+.git
+.gitignore
+.vscode/
+.idea/
+
+# Ignore data & notebooks (if not needed)
+data/
+*.ipynb
+ModelCreation/
+Model/
+SetAzureMLflow/
+
+# Ignore Docker artifacts
+Dockerfile*
+docker-compose.yml
+requirement.txt
+Guide.docker
+keys.txt

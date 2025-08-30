@@ -1,0 +1,16 @@
+setuptools
+azureml-core
+azureml-mlflow==1.52.0
+
+# MLFlow - MUST match versions
+mlflow==2.9.2
+mlflow-skinny==2.9.2  # Changed from 3.3.1 to match mlflow
+optuna
+#os
+pathlib
+azure-mgmt-authorization==0.40.0  # Downgraded from 3.0.0
+msal==1.28.0
+msal-extensions==1.0.0
+azure-identity==1.13.0
+scikit-learn==1.7.1  # Upgraded from 1.3.0 to match your model
+joblib==1.3.2
